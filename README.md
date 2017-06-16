@@ -14,8 +14,9 @@ Tema: Ferretería
 #
 
 El gestor de base de datos es MySQL, on entorno XAMPP.
-sql ``
+``` sql 
 create database ferreteria
+
 CREATE TABLE `categorias` (
 `ID_catego` int(11) NOT NULL,
 `Nom_catego` varchar(20) NOT NULL,
@@ -23,4 +24,4 @@ CREATE TABLE `categorias` (
 `Stock` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-``
+```
